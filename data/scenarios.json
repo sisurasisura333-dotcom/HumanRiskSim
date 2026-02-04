@@ -1,0 +1,45 @@
+{
+  "1": {
+    "name": "Phishing Email Click",
+    "base_risk": 40,
+    "real_world_data": {
+      "breach_percentage": 70,
+      "source": "Verizon Data Breach Investigations Report"
+    },
+    "impact": "Credentials may be stolen, leading to data breaches.",
+    "prevention": "Verify emails, avoid suspicious links, and conduct security awareness training."
+  },
+
+  "2": {
+    "name": "Weak Password Usage",
+    "base_risk": 30,
+    "real_world_data": {
+      "breach_percentage": 60,
+      "source": "Verizon Data Breach Investigations Report"
+    },
+    "impact": "Accounts can be compromised due to password reuse or guessing.",
+    "prevention": "Use strong passwords, password managers, and multi-factor authentication."
+  },
+
+  "3": {
+    "name": "Public Wi-Fi Login",
+    "base_risk": 20,
+    "real_world_data": {
+      "breach_percentage": 25,
+      "source": "ENISA Threat Landscape Report"
+    },
+    "impact": "Session hijacking or data interception may occur.",
+    "prevention": "Use VPNs and avoid accessing sensitive systems on public networks."
+  },
+
+  "4": {
+    "name": "Ignoring Software Updates",
+    "base_risk": 25,
+    "real_world_data": {
+      "breach_percentage": 35,
+      "source": "IBM Cost of a Data Breach Report"
+    },
+    "impact": "Known vulnerabilities remain exploitable by attackers.",
+    "prevention": "Enable automatic updates and regular patching."
+  }
+}
